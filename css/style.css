@@ -1,0 +1,284 @@
+/* ---- reset ---- */
+body {
+  margin:0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  }
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  }
+
+
+.img-circle {
+    /* important para priorizar css */
+    border-radius: 50% !important;
+    width: 15%;
+}
+
+header {
+  position: : relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  background-image: url("../img/background.jpg");
+}
+
+header .header-content {
+  position: relative;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+      header{
+        min-height: 120%;
+        text-align: center;
+      }
+
+      header .header-content {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px;
+        text-align: center;
+      }
+      header .header-content .header-content-inner{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.img-body {
+  position: : relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../img/body.jpg");
+}
+
+h1 {
+  padding: 18px 0 18px 0;
+}
+
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    padding: auto !important;
+    padding: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background-color: #efb163 !important;
+    border-color: #efb163 !important;
+}
+
+/* Inicio Section Imagens */
+.p-0 {
+    padding: 0!important;
+}
+
+section {
+    padding: 8rem 0;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (min-width: 576px)
+.col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+.portfolio-box {
+        position: relative;
+        display: block;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    a {
+        color: #f05f40;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        transition: all .2s;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+    }
+
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+
+    user agent stylesheet
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.portfolio-box .portfolio-box-caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(240,95,64,.9);
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+@media (min-width: 768px)
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+.text-faded {
+    color: rgba(255,255,255,.7);
+}
+
+@media (min-width: 768px)
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+
+/* Fim Section Imagens */
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+
+.footer {
+  font-family: inherit;
+  color: white;
+  position: relative;
+  text-align: left;
+  margin-left: 100px;
+}
