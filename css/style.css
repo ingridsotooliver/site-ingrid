@@ -274,6 +274,9 @@ img {
   margin-right: 0 !important;
 }
 
+#mapid {
+  height: 400px;
+}
 
 .footer {
   font-family: inherit;
